@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE020C5B2AE021290020428B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE020C5A2AE021290020428B /* AppDelegate.swift */; };
+		BE020C5D2AE021290020428B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE020C5C2AE021290020428B /* SceneDelegate.swift */; };
+		BE020C5F2AE021290020428B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE020C5E2AE021290020428B /* MainTabBarViewController.swift */; };
+		BE020C642AE0212A0020428B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE020C632AE0212A0020428B /* Assets.xcassets */; };
+		BE020C672AE0212A0020428B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE020C652AE0212A0020428B /* LaunchScreen.storyboard */; };
+		BE020C702AE024B30020428B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE020C6F2AE024B30020428B /* HomeViewController.swift */; };
+		BE020C722AE024DE0020428B /* CreateTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE020C712AE024DE0020428B /* CreateTripViewController.swift */; };
+		BE020C742AE024F10020428B /* AboutTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE020C732AE024F10020428B /* AboutTripViewController.swift */; };
+		BE020C762AE025090020428B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE020C752AE025090020428B /* UserProfileViewController.swift */; };
+		BE020C782AE0251A0020428B /* GuideProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE020C772AE0251A0020428B /* GuideProfileViewController.swift */; };
+		BE020C7A2AE0262C0020428B /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE020C792AE0262C0020428B /* UIColor+Extensions.swift */; };
+		BE020C7D2AE060E70020428B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE020C7C2AE060E70020428B /* MapKit.framework */; };
+		BE61779D2AE0C1600018C02C /* HalfSizePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE61779C2AE0C1600018C02C /* HalfSizePresentationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE020C572AE021290020428B /* Touch Grass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touch Grass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE020C5A2AE021290020428B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE020C5C2AE021290020428B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE020C5E2AE021290020428B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		BE020C632AE0212A0020428B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE020C662AE0212A0020428B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE020C682AE0212A0020428B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE020C6F2AE024B30020428B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BE020C712AE024DE0020428B /* CreateTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTripViewController.swift; sourceTree = "<group>"; };
+		BE020C732AE024F10020428B /* AboutTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTripViewController.swift; sourceTree = "<group>"; };
+		BE020C752AE025090020428B /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		BE020C772AE0251A0020428B /* GuideProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideProfileViewController.swift; sourceTree = "<group>"; };
+		BE020C792AE0262C0020428B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		BE020C7C2AE060E70020428B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BE61779C2AE0C1600018C02C /* HalfSizePresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSizePresentationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE020C542AE021290020428B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE020C7D2AE060E70020428B /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE020C4E2AE021290020428B = {
+			isa = PBXGroup;
+			children = (
+				BE020C592AE021290020428B /* Touch Grass */,
+				BE020C582AE021290020428B /* Products */,
+				BE020C7B2AE060E70020428B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE020C582AE021290020428B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE020C572AE021290020428B /* Touch Grass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE020C592AE021290020428B /* Touch Grass */ = {
+			isa = PBXGroup;
+			children = (
+				BE020C6E2AE024840020428B /* Controllers */,
+				BE020C5A2AE021290020428B /* AppDelegate.swift */,
+				BE020C5C2AE021290020428B /* SceneDelegate.swift */,
+				BE020C5E2AE021290020428B /* MainTabBarViewController.swift */,
+				BE020C632AE0212A0020428B /* Assets.xcassets */,
+				BE020C652AE0212A0020428B /* LaunchScreen.storyboard */,
+				BE020C682AE0212A0020428B /* Info.plist */,
+				BE020C792AE0262C0020428B /* UIColor+Extensions.swift */,
+			);
+			path = "Touch Grass";
+			sourceTree = "<group>";
+		};
+		BE020C6E2AE024840020428B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE020C6F2AE024B30020428B /* HomeViewController.swift */,
+				BE020C712AE024DE0020428B /* CreateTripViewController.swift */,
+				BE020C732AE024F10020428B /* AboutTripViewController.swift */,
+				BE020C752AE025090020428B /* UserProfileViewController.swift */,
+				BE020C772AE0251A0020428B /* GuideProfileViewController.swift */,
+				BE61779C2AE0C1600018C02C /* HalfSizePresentationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BE020C7B2AE060E70020428B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE020C7C2AE060E70020428B /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE020C562AE021290020428B /* Touch Grass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE020C6B2AE0212A0020428B /* Build configuration list for PBXNativeTarget "Touch Grass" */;
+			buildPhases = (
+				BE020C532AE021290020428B /* Sources */,
+				BE020C542AE021290020428B /* Frameworks */,
+				BE020C552AE021290020428B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Touch Grass";
+			productName = "Touch Grass";
+			productReference = BE020C572AE021290020428B /* Touch Grass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE020C4F2AE021290020428B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BE020C562AE021290020428B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BE020C522AE021290020428B /* Build configuration list for PBXProject "Touch Grass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE020C4E2AE021290020428B;
+			productRefGroup = BE020C582AE021290020428B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE020C562AE021290020428B /* Touch Grass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE020C552AE021290020428B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE020C672AE0212A0020428B /* LaunchScreen.storyboard in Resources */,
+				BE020C642AE0212A0020428B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE020C532AE021290020428B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE020C5F2AE021290020428B /* MainTabBarViewController.swift in Sources */,
+				BE020C5B2AE021290020428B /* AppDelegate.swift in Sources */,
+				BE020C782AE0251A0020428B /* GuideProfileViewController.swift in Sources */,
+				BE020C762AE025090020428B /* UserProfileViewController.swift in Sources */,
+				BE020C7A2AE0262C0020428B /* UIColor+Extensions.swift in Sources */,
+				BE020C5D2AE021290020428B /* SceneDelegate.swift in Sources */,
+				BE020C702AE024B30020428B /* HomeViewController.swift in Sources */,
+				BE61779D2AE0C1600018C02C /* HalfSizePresentationController.swift in Sources */,
+				BE020C722AE024DE0020428B /* CreateTripViewController.swift in Sources */,
+				BE020C742AE024F10020428B /* AboutTripViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE020C652AE0212A0020428B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE020C662AE0212A0020428B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE020C692AE0212A0020428B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE020C6A2AE0212A0020428B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE020C6C2AE0212A0020428B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9365JX44UF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Touch Grass/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.JosephSomerville.Touch-Grass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE020C6D2AE0212A0020428B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9365JX44UF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Touch Grass/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.JosephSomerville.Touch-Grass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE020C522AE021290020428B /* Build configuration list for PBXProject "Touch Grass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE020C692AE0212A0020428B /* Debug */,
+				BE020C6A2AE0212A0020428B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE020C6B2AE0212A0020428B /* Build configuration list for PBXNativeTarget "Touch Grass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE020C6C2AE0212A0020428B /* Debug */,
+				BE020C6D2AE0212A0020428B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE020C4F2AE021290020428B /* Project object */;
+}
